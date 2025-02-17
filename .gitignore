@@ -1,0 +1,58 @@
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.idea/
+*.iml
+.vscode/
+*.log
+
+# Ignore Maven/Gradle build files (for Spring Boot)
+target/
+*.jar
+*.war
+*.ear
+
+# Ignore dependency cache
+.mvn/
+!mvn/wrapper/maven-wrapper.jar
+.gradle/
+build/
+
+# Ignore Spring Boot application properties
+application.properties
+application.yml
+.env
+
+# Ignore logs
+logs/
+*.log
+log/
+
+# Ignore coverage and reports
+coverage/
+jacoco/
+*.exec
+
+# Ignore npm/yarn-related files (for React frontend)
+node_modules/
+dist/
+build/
+*.lock
+
+# Ignore React environment variables
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Ignore React debugging files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore generated files (for CI/CD)
+*.swp
+*.swo
+*.bak

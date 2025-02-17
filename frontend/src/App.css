@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000');
+
+.signup-container{
+  font-family: 'DM Sans';
+  margin: 10% auto;
+  border: 1px solid #d9d9d9;
+  width: 25%;
+  border-radius: 5px;
+}
+
+.signup-container > h3{
+  text-align: center;
+}
+
+.signup-container > form > input{
+  font-family: 'DM Sans';
+  display:block;
+  margin: 7% auto;
+  text-align: center;
+  padding: 2%;
+  width: 50%;
+  border: 1px solid #d9d9d9;
+}
+
+.signup-container button{
+  font-family: 'DM Sans';
+  border:0px;
+  border-radius: 20px;
+  padding: 10px;
+  width: 30%;
+  display: block;
+  margin: 10% auto;
+  background-color: #00BFFF;
+  color: white;
+  font-weight: bold;
+}
+
+.signup-container > form > p{
+  text-align: center;
+  font-style: italic;
+  color: red;
+}
